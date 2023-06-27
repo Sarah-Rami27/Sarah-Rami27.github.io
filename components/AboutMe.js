@@ -6,11 +6,11 @@ import { Row, Col } from "react-bootstrap";
 const AboutMe = () => {
   return (
     <>
-      <div className="bg-lightblue min-h-screen flex flex-col">
-        <p className="mt-10 text-6xl lg:text-7xl text-darkbrown font-serif-display text-center ">
+      <div className="bg-lightblue min-h-screen flex flex-col items-center justify-center">
+        <p className="mt-6 text-6xl lg:text-7xl text-darkbrown font-serif-display text-center ">
           About Me
         </p>
-        <div className="px-24 mt-10">
+        <div className="px-24 mt-8">
           <p className="text-xl lg:text-2xl text-darkbrown font-roboto text-justify">
             Hi, I'm Sarah Ramirez! I recently graduated with my Bachelors in
             Science in Computer Science with Business Applications. I am
@@ -25,7 +25,7 @@ const AboutMe = () => {
             as I embark on my journey as a computer science graduate student.
           </p>
         </div>
-        <div className="mt-10 flex flex-col px-24">
+        <div className="mt-16 flex flex-col px-24">
           <Row>
             <Col md={12} lg={8}>
               <div>
