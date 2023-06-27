@@ -3,20 +3,20 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['plugin:react/recommended', 'google'],
+  extends: ["plugin:react/recommended", "google", "prettier"],
   overrides: [],
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
+    ecmaVersion: "latest",
+    sourceType: "module",
   },
-  plugins: ['react'],
+  plugins: ["react"],
   rules: {
-    'require-jsdoc': 'off',
-    'react/react-in-jsx-scope': 'off',
+    "require-jsdoc": "off",
+    "react/react-in-jsx-scope": "off",
   },
   settings: {
     react: {
-      version: 'detect',
+      version: "detect",
     },
   },
 };
