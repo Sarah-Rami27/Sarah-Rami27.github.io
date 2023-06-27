@@ -16,8 +16,10 @@ const AboutMe = () => {
             Computer Science with Business Applications. I am thrilled to be starting my
             Master's in Computer Science at the Univeresity of California, Riverside. Alongside 
             my academic pursuits, I enjoy trying new foods, exploring new places, and reading 
-            new books. I have a strong passion for innovation and problem-solving, I'm 
-            excited to apply my skills and knowledge to meaningful projects. I can't wait 
+            new books. I thrive on solving complex problems and creating innovative solutions 
+            that can make a positive impact in the world. Through my education and hands-on 
+            experience, I have developed a solid foundation in various programming languages, 
+            algorithms, and data structures. I can't wait 
             to see what opportunities come my way as I embark on my journey as a computer 
             science graduate student.
           </p>
