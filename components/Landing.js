@@ -25,7 +25,7 @@ const Landing = () => {
             <Col xs={8} sm={7} md={6} lg={4}>
               <img
                 className="animate__animated animate__fadeInRight my-8 shadow-xl rounded-full max-w-full h-auto align-middle border-none"
-                src="sarahpic.jpg"
+                src="sarahpic.webp"
                 alt="Sarah Ramirez Picture"
               />
             </Col>
