@@ -1,11 +1,7 @@
 import React from "react";
 
 const Experience = () => {
-    return(
-        <>
-        
-        </>
-    );
+  return <></>;
 };
 
 export default Experience;
