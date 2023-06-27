@@ -57,9 +57,7 @@ const AboutMe = () => {
                     Structures and Algorithms, Design of Operating Systems,
                     Computer Security, Introduction to Information Retrieval,
                     Data Analysis Methods, Database Management Systems, Software
-                    Construction, Technical Communications, Production and
-                    Operations Management, Simulation for Business, Marketing
-                    and Distribution Management
+                    Construction
                   </li>
                 </ul>
               </div>
