@@ -13,6 +13,11 @@ module.exports = {
       colors: {
         lightblue: '#CBDBEB',
         darkbrown: '#272526',
+        gray: '#686974',
+      },
+      backgroundImage: {
+        // eslint-disable-next-line quotes
+        'ucr-belltower': "url('/public/belltower.png')",
       },
     },
   },
