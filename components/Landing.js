@@ -1,12 +1,12 @@
 /* eslint-disable max-len */
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const Landing = () => {
   return (
     <>
       <main className="bg-lightblue min-h-screen flex flex-col items-center justify-center">
-        <Container className="p-8">
+        <div className="px-20 p-8">
           <Row className="place-content-center">
             <Col
               className="justify-center my-auto"
@@ -30,7 +30,7 @@ const Landing = () => {
               />
             </Col>
           </Row>
-        </Container>
+        </div>
       </main>
     </>
   );

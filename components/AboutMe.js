@@ -1,14 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable max-len */
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const AboutMe = () => {
   return (
     <>
       <main className="bg-lightblue min-h-screen flex flex-col items-center justify-center">
-        <Container className="mb-8">
-          <p className="text-6xl lg:text-7xl text-darkbrown font-serif-display text-left">
+        <div className="px-20 mb-8">
+          <p className="text-6xl lg:text-7xl text-darkbrown font-serif-display text-center">
             About Me
           </p>
           <Row className="place-content-center">
@@ -38,8 +38,8 @@ const AboutMe = () => {
               </div>
             </Col>
           </Row>
-        </Container>
-        <Container className="flex flex-col px-20">
+        </div>
+        <div className="flex flex-col px-20">
           <Row>
             <Col md={12} lg={8}>
               <div>
@@ -62,8 +62,8 @@ const AboutMe = () => {
                 </ul>
               </div>
               <div className="mt-8 mr-6">
-                <p className="text-2xl font-serif-display leading-tight">
-                  &nbsp; Revelvant Coursework
+                <p className="text-2xl font-roboto font-semibold leading-tight">
+                  &emsp; Revelvant Coursework
                 </p>
                 <ul>
                   <li className="leading-tight font-roboto text-left">
@@ -106,7 +106,7 @@ const AboutMe = () => {
               </div>
             </Col>
           </Row>
-        </Container>
+        </div>
       </main>
     </>
   );
