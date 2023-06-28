@@ -6,39 +6,40 @@ import { Row, Col, Container } from "react-bootstrap";
 const AboutMe = () => {
   return (
     <>
-      <div className="bg-lightblue min-h-screen flex flex-col items-center justify-center">
-        <Container className="">
-        <p className="mt-16 text-6xl lg:text-7xl text-darkbrown font-serif-display text-left">
-          About Me
-        </p>
+      <main className="bg-lightblue min-h-screen flex flex-col items-center justify-center">
+        <Container>
+          <p className="text-6xl lg:text-7xl text-darkbrown font-serif-display text-left">
+            About Me
+          </p>
           <Row className="place-content-center">
-            <Col xs={12} lg={9} >
+            <Col xs={12} lg={9}>
               <p className=" my-6 text-lg lg:text-xl xl:text-2xl text-darkbrown font-roboto text-left">
                 Hi, I'm Sarah Ramirez! I recently graduated with my Bachelors in
                 Science in Computer Science with Business Applications. I am
                 thrilled to be starting my Master's in Computer Science at the
                 University of California, Riverside. Alongside my academic
                 pursuits, I enjoy trying new foods, exploring new places, and
-                reading new books. I thrive on solving complex problems and creating
-                innovative solutions that can make a positive impact in the world.
-                Through my education and hands-on experience, I have developed a
-                solid foundation in various programming languages, algorithms, and
-                data structures. I can't wait to see what opportunities come my way
-                as I embark on my journey as a computer science graduate student.
+                reading new books. I thrive on solving complex problems and
+                creating innovative solutions that can make a positive impact in
+                the world. Through my education and hands-on experience, I have
+                developed a solid foundation in various programming languages,
+                algorithms, and data structures. I can't wait to see what
+                opportunities come my way as I embark on my journey as a
+                computer science graduate student.
               </p>
             </Col>
             <Col xs={7} lg={3} className="flex-col">
               <div className="flex items-center justify-center">
                 <img
-                className="shadow-xl rounded-lg max-w-full h-auto align-middle border-none"
-                src="belltowergrad.webp"
-                alt="Grad picture"
-              />
+                  className="shadow-xl rounded-lg max-w-full h-auto align-middle border-none"
+                  src="belltowergrad.webp"
+                  alt="Grad picture"
+                />
               </div>
             </Col>
           </Row>
         </Container>
-        <Container className="mt-12 flex flex-col px-20">
+        <Container className="flex flex-col px-20">
           <Row>
             <Col md={12} lg={8}>
               <div>
@@ -106,7 +107,7 @@ const AboutMe = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </main>
     </>
   );
 };
