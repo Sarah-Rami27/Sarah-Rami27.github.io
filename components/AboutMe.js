@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <>
       <main className="bg-lightblue min-h-screen flex flex-col items-center justify-center">
-        <Container>
+        <Container className="mb-8">
           <p className="text-6xl lg:text-7xl text-darkbrown font-serif-display text-left">
             About Me
           </p>
