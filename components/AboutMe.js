@@ -1,31 +1,44 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable max-len */
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 const AboutMe = () => {
   return (
     <>
       <div className="bg-lightblue min-h-screen flex flex-col items-center justify-center">
-        <p className="mt-6 text-6xl lg:text-7xl text-darkbrown font-serif-display text-center ">
+        <Container className="">
+        <p className="mt-16 text-6xl lg:text-7xl text-darkbrown font-serif-display text-left">
           About Me
         </p>
-        <div className="px-24 mt-8">
-          <p className="text-xl lg:text-2xl text-darkbrown font-roboto text-justify">
-            Hi, I'm Sarah Ramirez! I recently graduated with my Bachelors in
-            Science in Computer Science with Business Applications. I am
-            thrilled to be starting my Master's in Computer Science at the
-            Univeresity of California, Riverside. Alongside my academic
-            pursuits, I enjoy trying new foods, exploring new places, and
-            reading new books. I thrive on solving complex problems and creating
-            innovative solutions that can make a positive impact in the world.
-            Through my education and hands-on experience, I have developed a
-            solid foundation in various programming languages, algorithms, and
-            data structures. I can't wait to see what opportunities come my way
-            as I embark on my journey as a computer science graduate student.
-          </p>
-        </div>
-        <div className="mt-16 flex flex-col px-24">
+          <Row className="place-content-center">
+            <Col xs={12} lg={9} >
+              <p className=" my-6 text-lg lg:text-xl xl:text-2xl text-darkbrown font-roboto text-left">
+                Hi, I'm Sarah Ramirez! I recently graduated with my Bachelors in
+                Science in Computer Science with Business Applications. I am
+                thrilled to be starting my Master's in Computer Science at the
+                University of California, Riverside. Alongside my academic
+                pursuits, I enjoy trying new foods, exploring new places, and
+                reading new books. I thrive on solving complex problems and creating
+                innovative solutions that can make a positive impact in the world.
+                Through my education and hands-on experience, I have developed a
+                solid foundation in various programming languages, algorithms, and
+                data structures. I can't wait to see what opportunities come my way
+                as I embark on my journey as a computer science graduate student.
+              </p>
+            </Col>
+            <Col xs={7} lg={3} className="flex-col">
+              <div className="flex items-center justify-center">
+                <img
+                className="shadow-xl rounded-lg max-w-full h-auto align-middle border-none"
+                src="belltowergrad.webp"
+                alt="Grad picture"
+              />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        <Container className="mt-12 flex flex-col px-20">
           <Row>
             <Col md={12} lg={8}>
               <div>
@@ -52,7 +65,7 @@ const AboutMe = () => {
                   &nbsp; Revelvant Coursework
                 </p>
                 <ul>
-                  <li className="leading-tight font-roboto text-justify">
+                  <li className="leading-tight font-roboto text-left">
                     Discrete Structues, Computer Networks, Intermediate Data
                     Structures and Algorithms, Design of Operating Systems,
                     Computer Security, Introduction to Information Retrieval,
@@ -72,7 +85,7 @@ const AboutMe = () => {
                 <p className="text-lg font-bold font-roboto leading-tight">
                   Technical Skills:
                 </p>
-                <p className="font-roboto text-justify">
+                <p className="font-roboto text-left">
                   C++, Javascript, Python, HTML/CSS, SQL
                 </p>
               </div>
@@ -92,7 +105,7 @@ const AboutMe = () => {
               </div>
             </Col>
           </Row>
-        </div>
+        </Container>
       </div>
     </>
   );
