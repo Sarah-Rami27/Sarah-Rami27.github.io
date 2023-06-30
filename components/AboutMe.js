@@ -5,8 +5,8 @@ import { Row, Col } from "react-bootstrap";
 
 const AboutMe = () => {
   return (
-    <>
-      <main className="bg-lightblue min-h-screen flex flex-col items-center justify-center">
+    <section id="aboutme">
+      <main className="bg-lightblue min-h-screen py-20 flex flex-col items-center justify-center">
         <div className="px-20 mb-8">
           <p className="text-6xl lg:text-7xl text-darkbrown font-serif-display text-center">
             About Me
@@ -108,7 +108,7 @@ const AboutMe = () => {
           </Row>
         </div>
       </main>
-    </>
+    </section>
   );
 };
 

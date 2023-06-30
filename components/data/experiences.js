@@ -23,7 +23,7 @@ const experiences = [
   {
     organization: "iGen Connections",
     role: "Creative",
-    location: "Riverside, CA",
+    location: "Remote",
     duration: "February 2021 - Present",
     description: [
       "Tasked to create content for social media pages",

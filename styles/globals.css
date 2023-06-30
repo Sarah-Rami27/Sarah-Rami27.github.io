@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Brittany";
+  src: url("../public/fonts/BrittanySignature.woff2") format("woff2"),
+    url("../public/fonts/BrittanySignature.woff") format("woff");
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
