@@ -5,6 +5,14 @@
   font-style: normal;
 }
 
+.bg-textbox {
+  width: 400px;
+  height: 380px;
+  background-color: #f5f9fa;
+  position: center;
+  border-radius: 20px;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

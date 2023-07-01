@@ -3,6 +3,7 @@ import Landing from "../components/Landing";
 import AboutMe from "../components/AboutMe";
 import Experience from "../components/Experience";
 import Navigation from "../components/Navigation";
+import Projects from "../components/Projects";
 
 const Index = () => {
   return (
@@ -11,6 +12,7 @@ const Index = () => {
       <Landing />
       <AboutMe />
       <Experience />
+      <Projects />
     </div>
   );
 };
