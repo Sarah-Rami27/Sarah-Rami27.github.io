@@ -67,7 +67,7 @@ const AboutMe = () => {
                 </p>
                 <ul>
                   <li className="leading-tight font-roboto text-left">
-                    Discrete Structues, Computer Networks, Intermediate Data
+                    Discrete Structures, Computer Networks, Intermediate Data
                     Structures and Algorithms, Design of Operating Systems,
                     Computer Security, Introduction to Information Retrieval,
                     Data Analysis Methods, Database Management Systems, Software

@@ -16,6 +16,7 @@ module.exports = {
         darkbrown: "#272526",
         gray: "#686974",
         white: "#ffffff",
+        offwhite: "#f5f9fe",
       },
       backgroundImage: {
         // eslint-disable-next-line quotes

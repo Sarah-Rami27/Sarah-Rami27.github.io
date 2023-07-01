@@ -36,6 +36,13 @@ const Navigation = () => {
           >
             Contact
           </Nav.Link>
+          <Nav.Link
+            target="_blank"
+            href="/RamirezSarahResumefinv.pdf"
+            className="font-serif-display text-1xl !text-darkbrown hover:!text-white"
+          >
+            Resume
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

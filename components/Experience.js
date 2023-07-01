@@ -5,7 +5,7 @@ import { Row, Col } from "react-bootstrap";
 const Experience = () => {
   return (
     <section id="experience">
-      <main className="bg-lightblue pt-20 min-h-screen flex flex-col items-center justify-center">
+      <main className="bg-lightblue pt-24 pb-10 min-h-full flex flex-col items-center justify-center">
         <div className="px-20 mb-8">
           <p className="text-6xl lg:text-7xl mb-16 text-darkbrown font-serif-display text-center">
             Experience

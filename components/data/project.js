@@ -3,7 +3,7 @@ const project = [
     title: "UC System Web Search Engine",
     technologies: "Python, BeautifulSoup, PyLucene, Flask",
     description:
-      "Developed a web crawler using Python and BeautifulSoup to crawl and store JSON files from seed URLs. Created a web-based search user friendly interface using PyLucene and Flask, allowing users to input search queries and receive relevant results ordered by score. Riverside, CA",
+      "Developed a web crawler using Python and BeautifulSoup to crawl and store JSON files from seed URLs. Created a web-based search user friendly interface using PyLucene and Flask, allowing users to input search queries and receive relevant results ordered by score.",
     github: "https://github.com/Sarah-Rami27/web-search",
     website: "",
     info: "",
