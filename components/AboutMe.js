@@ -8,7 +8,7 @@ const AboutMe = () => {
     <section id="aboutme">
       <main className="bg-lightblue min-h-screen py-20 flex flex-col items-center justify-center">
         <div className="px-20 mb-8">
-          <p className="text-6xl lg:text-7xl text-darkbrown font-serif-display text-center">
+          <p className="text-6xl lg:text-7xl text-darkbrown font-serif-display text-left">
             About Me
           </p>
           <Row className="place-content-center">

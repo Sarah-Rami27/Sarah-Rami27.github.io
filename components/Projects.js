@@ -34,7 +34,7 @@ const Projects = () => {
                     <p className="m-0 text-md text-center font-roboto">
                       {project.description}
                     </p>
-                    <div className="flex justify-center">
+                    <div className="flex m-2 justify-center">
                       <a
                         href={project.github}
                         rel="noopener noreferrer"
