@@ -1,5 +1,16 @@
 const experiences = [
   {
+    organization: "UCR Computer Science and Engineering Dept. ",
+    role: "Teaching Assistant",
+    location: "Riverside, CA",
+    duration: "January 2024 - April 2024",
+    description: [
+      "Teaching Assistant for the software construction course. Course covers design and implementation strategies and selection and mastery of programming languages, environment tools, and development processes",
+      "Prepare slides and other materials for students to utilize during lab time",
+      "Assist students with issues and questions they encounter within their lab assignment",
+    ],
+  },
+  {
     organization: "UCR Association for Computing Machinery",
     role: "Web Developer",
     location: "Riverside, CA",
@@ -22,7 +33,7 @@ const experiences = [
   },
   {
     organization: "iGen Connections",
-    role: "Creative",
+    role: "Media Director",
     location: "Remote",
     duration: "February 2021 - Present",
     description: [

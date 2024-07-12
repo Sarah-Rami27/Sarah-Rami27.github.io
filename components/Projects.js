@@ -57,7 +57,7 @@ const Projects = () => {
                         <></>
                       ) : (
                         <a
-                          href={project.website}
+                          href={project.info}
                           rel="noopener noreferrer"
                           target="_blank"
                         >
