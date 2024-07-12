@@ -1,5 +1,14 @@
 const project = [
   {
+    title: "Malpractice Compensation Predictor",
+    technologies: "Python, Scikit-Learn, Pandas, NumPy",
+    description:
+      "Employed diverse regression methods for precise medical malpractice claim amount prediction. Implemented Scikit-Learn for varied regression models to predict malpractice claim amounts accurately. Implemented custom-built regression models for comparative analysis, refining predictions in medical malpractice scenarios.",
+    github: "https://github.com/Sarah-Rami27/Medical-Malpractice-Analysis",
+    website: "",
+    info: "https://drive.google.com/file/d/1TIgI0oqs3Q_DDxBF_-sHWN2jsCKdppIb/view?usp=sharing",
+  },
+  {
     title: "UC System Web Search Engine",
     technologies: "Python, BeautifulSoup, PyLucene, Flask",
     description:
@@ -34,15 +43,6 @@ const project = [
     github: "https://github.com/Sarah-Rami27/cv",
     website: "https://sarah-rami27.github.io/cv/",
     info: "",
-  },
-  {
-    title: "Malpractice Compensation Predictor",
-    technologies: "Python, BeautifulSoup, PyLucene, Flask",
-    description:
-      "Employed diverse regression methods for precise medical malpractice claim amount prediction. Implemented Scikit-Learn for varied regression models to predict malpractice claim amounts accurately. Implemented custom-built regression models for comparative analysis, refining predictions in medical malpractice scenarios.",
-    github: "https://github.com/Sarah-Rami27/Medical-Malpractice-Analysis",
-    website: "",
-    info: "https://drive.google.com/file/d/1TIgI0oqs3Q_DDxBF_-sHWN2jsCKdppIb/view?usp=sharing",
   },
 ];
 
