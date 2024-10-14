@@ -38,7 +38,7 @@ const Navigation = () => {
           </Nav.Link>
           <Nav.Link
             target="_blank"
-            href="/RamirezSarahResumeV2.pdf"
+            href="/RamirezSarahResume_.pdf"
             className="font-serif-display text-1xl !text-darkbrown hover:!text-white"
           >
             Resume
