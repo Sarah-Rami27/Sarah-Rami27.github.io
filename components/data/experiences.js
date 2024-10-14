@@ -1,5 +1,15 @@
 const experiences = [
   {
+    organization: "Data Science Pathways Fellowship",
+    role: "Fellow",
+    location: "Riverside, CA",
+    duration: "June 2024 - August 2024",
+    description: [
+      "Led a team of 4 fellows in the fellowship: driving project milestones, coordinating daily scrum meetings",
+      "Enhanced the accuracy of predictive models by cleaning and preparing datasets and training a  3D UNet model, contributing to improved research outcomes",
+    ],
+  },
+  {
     organization: "UCR Computer Science and Engineering Dept. ",
     role: "Teaching Assistant",
     location: "Riverside, CA",
